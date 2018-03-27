@@ -1,0 +1,60 @@
+
+<!--Register form-->
+<form class="container">
+    <p class="h5 text-center mb-4">Click Submit to go to Shopping Page:</p>
+
+    <div class="row">
+        <div class="md-form col-md-6">
+            <input type="text" id="orangeForm-state" class="form-control" mdbActive>
+            <label for="orangeForm-state">STATE</label>
+        </div>
+    </div>
+    <div class="row">
+        <div class="md-form col-md-6">
+            <input type="text" id="orangeForm-zip" class="form-control" mdbActive>
+            <label for="orangeForm-zip">ZIPCODE</label>
+        </div>
+    </div>
+    <div class="row">
+        <div class="md-forcm col-md-6">   
+            <label for="orangeForm-covered">NOOFCOVERED</label> 
+            <select id= "orangeForm-covered" class="browser-default">
+                <option value="" disabled selected>Who will be covered?</option>
+                <option value="1">Self</option>
+                <option value="2">Self + One</option>
+                <option value="3">Self + Two or more</option>
+            </select>   
+                        
+        </div>
+    </div>
+    <div class="row">
+        <div class="md-form col-md-6">
+            <input type="text" id="orangeForm-start" class="form-control" mdbActive>
+            <label for="orangeForm-start">CVGSTARTDATE</label>
+        </div>
+    </div>
+    <div class="row">
+        <div class="md-form col-md-6">
+            <input type="text" id="orangeForm-brand" class="form-control" mdbActive>
+            <label for="orangeForm-brand">BRAND</label>
+        </div>
+    </div>
+    <div class="row">
+        <div class="md-form col-md-6">
+            <input type="text" id="orangeForm-dob" class="form-control" mdbActive>
+            <label for="orangeForm-dob">DOB</label>
+        </div>
+    </div>
+
+    <div class="text-center">
+        <button class="btn btn-deep-orange waves-light" mdbRippleRadius>Submit</button>
+    </div>
+
+</form>
+<!--/Register form-->
+AARP : <a href="/shopping/aarp/get-a-quote?zipCode=95054&stateCode=CA&noOfCovered=2&coverageStartDate=12/01/2017&issuerCode=AARP">Send-with-query-params[AARP]</a>
+    <br>
+    
+    <br>
+DELTA : <a href="/shopping/delta/get-a-quote?zipCode=95054&stateCode=CA&noOfCovered=2&coverageStartDate=12/01/2017&issuerCode=DELTA&a0_dob=06/20/1987&a1_dob=06/07/2010">Send-with-query-params[DELTA]</a>
+        
